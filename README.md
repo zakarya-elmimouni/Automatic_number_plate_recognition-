@@ -2,7 +2,7 @@
 # Description
 The Automatic Number Plate Recognition (ANPR) project is aimed at building a system capable of recognizing and extracting text from car's license plates. The project utilizes TensorFlow, a popular deep learning framework, to train a model for license plate detection. Additionally, Optical Character Recognition (OCR) techniques are employed to read the text from the detected license plates.The Dataset i used is avaibale on kaggle's Datasets https://www.kaggle.com/datasets/andrewmvd/car-plate-detection
 
-The main components of this project are:
+*The main components of this project are:*
 
 License Plate Detection Model: A TensorFlow-based deep learning model trained to detect license plates in images.
 
