@@ -7,5 +7,4 @@ The main components of this project are:
 License Plate Detection Model: A TensorFlow-based deep learning model trained to detect license plates in images.
 Image Preprocessing: Appropriate preprocessing techniques are used to enhance the license plate regions before feeding them into the OCR module.
 Optical Character Recognition (OCR): OCR techniques are applied to extract text from the detected license plate regions.
-
 Tkinter interface: A simple GUI  to allow users to interact with the ANPR system and visualize  results with thier webcames.
