@@ -139,8 +139,8 @@ def retrun_final_image_with_box(modelpath, image, lblpath, min_conf=0.5):
 
 
 
-PATH_TO_MODEL='D:\mes projets\Automatic plate number recognition\custom_model_lite\detect.tflite'   # Path to .tflite model file
-PATH_TO_LABELS='D:\mes projets\Automatic plate number recognition\custom_model_lite\labelmap.txt'   # Path to labelmap.txt file
+PATH_TO_MODEL='detect.tflite'   # Path to .tflite model file
+PATH_TO_LABELS='labelmap.txt'   # Path to labelmap.txt file
 min_conf_threshold=0.5   # Confidence threshold (try changing this to 0.01 if you don't see any detection results)
 
 def get_text_from_plate(image,boxes,region_threshold=0.3):
